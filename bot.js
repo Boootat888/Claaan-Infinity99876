@@ -143,7 +143,7 @@ client.on('message', message => {
     if (message.author.bot) return;
       message.channel.send(` **Please wait ${pretty(r, {verbose:true})}**`).then(m => m.delete(5000));
       return;
-      }
+      })
       if ( message.content == "لوخيروك"){
          
           try{
